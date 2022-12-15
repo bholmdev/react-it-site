@@ -16,8 +16,8 @@ function App() {
       <BannerImg />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="contact" element={<ContactPage />} />
         <Route path="about" element={<AboutPage />}></Route>
+        <Route path="contact" element={<ContactPage />} />
         <Route path="directory" element={<CampsitesDirectoryPage />} />
         <Route 
           path="directory/:campsiteId" 

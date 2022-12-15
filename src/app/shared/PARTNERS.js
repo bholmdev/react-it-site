@@ -1,39 +1,36 @@
-import bootStrapLogo from '../assets/img/bootstrap-logo.png';
-import gitLogo from '../assets/img/git-logo.png';
-import mongoLogo from '../assets/img/mongo-logo.png';
-import nodeLogo from '../assets/img/node-logo.png';
+import ciscologo from '../assets/img/cisco-logo.png';
+import sophosLogo from "../assets/img/sophos-logo.png";
+import palosAltoLogo from "../assets/img/paloalto-logo.png"
+import sonicwallLogo from '../assets/img/sonic-wall.png';
 
 export const PARTNERS = [
     {
         id: 0,
-        name: 'Bootstrap Outfitters',
-        image: bootStrapLogo,
+        name: 'Cisco Technologies',
+        image: ciscologo,
         featured: false,
         description:
-            "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
+            "If it's connected, it's protected."
     },
     {
         id: 1,
-        name: 'Git Out Expeditions',
-        image: gitLogo,
-        featured: false,
+        name: 'Sophos',
+        image: sophosLogo,
         description:
-            'Join Git Out Expeditions to explore new horizons with a group of other adventurers!'
+            'Managed Detection and Response.'
     },
     {
         id: 2,
-        name: 'Mongo Fly Shop',
-        image: mongoLogo,
-        featured: false,
+        name: 'Palo Alto',
+        image: palosAltoLogo,
         description:
-            'Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.'
+            'Fix the unknown before you know it.'
     },
     {
         id: 3,
-        name: 'Node Outdoor Apparel',
-        image: nodeLogo,
-        featured: true,
+        name: 'SonicWall',
+        image: sonicwallLogo,
         description:
-            'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
+            'Mobilize for the new normal.'
     }
 ];
