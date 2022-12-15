@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <Navbar dark color='primary' sticky='top' expand='md'className="navbar__custom">
-            <NavbarBrand className="ms-5" href='/'>
+            <NavbarBrand className="ms-5" href="home">
                 <h1 className="mt-1">BHolm IT</h1>
             </NavbarBrand>
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
@@ -33,7 +33,7 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="nav-link" to="/technoligies">
+                        <NavLink className="nav-link" to="/technologies">
                             Technology Providers
                         </NavLink>
                     </NavItem>
