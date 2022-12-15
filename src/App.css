@@ -84,3 +84,17 @@ h2 {
   opacity: 0;
   transition: 300ms ease-in;
 }
+
+@media only screen and (max-width: 1000px) {
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 280px;
+    height: 157.5px;
+  }
+}
