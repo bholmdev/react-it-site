@@ -85,6 +85,29 @@ h2 {
   transition: 300ms ease-in;
 }
 
+.bg-success {
+  background-color: blue;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-button {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-button:hover {
+  color: blue;
+}
+
+.align-content-center {
+  display: flex;
+  margin-inline: 100px;
+}
+
 @media only screen and (max-width: 1000px) {
   iframe {
     width: 560px;

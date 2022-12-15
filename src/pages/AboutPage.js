@@ -17,7 +17,7 @@ const AboutPage = () => {
                 <Col sm="6">
                     <Card>
                         <CardHeader className="bg-success text-white">
-                            <h3>Facts at a Glance</h3>
+                            <h3>Facts About Us</h3>
                         </CardHeader>
                         <CardBody>
                         <dl className='row'>

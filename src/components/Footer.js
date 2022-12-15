@@ -5,21 +5,21 @@ const Footer = () => {
   return (
     <footer className="site-footer">
         <Container>
-            <Row>
+            <Row className="align-items-center">
                 <Col xs={{ size: 4, offset: 1 }} sm='2'>
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link className="footer-link" to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/products">Products</Link>
+                            <Link className="footer-link" to="/products">Products</Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
+                            <Link className="footer-link" to="/about">About</Link>
                         </li>
                         <li>
-                            <Link to="/contact">Contact</Link>
+                            <Link className="footer-link" to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </Col>
@@ -51,20 +51,21 @@ const Footer = () => {
                     </a>
                 </Col>
                 <Col sm='4' className='text-center'>
+                    <h5>Contact</h5>
                     <a
                         role='button'
-                        className='btn btn-link'
-                        href='tel:+12065551234'
+                        className='footer-button'
+                        href='tel:+15555555555'
                     >
-                        <i className='fa fa-phone' /> 1-206-555-1234
+                        <i className='fa fa-phone' /> 1-555-555-5555
                     </a>
                     <br />
                     <a
                         role='button'
-                        className='btn btn-link'
-                        href='mailto:notreal@notreal.co'
+                        className='footer-button'
+                        href='mailto:exampleemail@email.com'
                     >
-                        <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                        <i className='fa fa-envelope-o' /> exampleemail@email.com
                     </a>
                 </Col>
             </Row>
