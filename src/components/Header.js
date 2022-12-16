@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <Navbar dark color='primary' sticky='top' expand='lg' className="navbar__custom">
             <NavbarBrand className="ms-5" href="home">
-                <h1 className="mt-1">BHolm IT</h1>
+                <h1 className="mt-1">BHolm IT Test</h1>
             </NavbarBrand>
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
