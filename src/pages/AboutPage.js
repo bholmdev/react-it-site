@@ -36,7 +36,7 @@ const AboutPage = () => {
                         <CardBody className="blockquote">
                             <p>“Passwords are like underwear: don't let people see it, change it very often, and you shouldn't share it with strangers.”</p>
                             <footer className="blockquote-footer">
-                                Chris Pirillo,{' '}
+                                Chris Pirillo
                             </footer>
                         </CardBody>
                     </Card>
