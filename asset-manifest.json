@@ -1,21 +1,16 @@
 {
   "files": {
     "main.css": "/react-it-site/static/css/main.ea8039e4.css",
-    "main.js": "/react-it-site/static/js/main.0c6c0436.js",
+    "main.js": "/react-it-site/static/js/main.4b5485a4.js",
     "static/media/hacker.jpg": "/react-it-site/static/media/hacker.89a92beea883f2349b5f.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-it-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/react-it-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/react-it-site/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/chrome-river.jpg": "/react-it-site/static/media/chrome-river.59bc51bda08040bae159.jpg",
-    "static/media/react-lake.jpg": "/react-it-site/static/media/react-lake.05bcb300b6ee37035a7c.jpg",
-    "static/media/redux-woods.jpg": "/react-it-site/static/media/redux-woods.371a075ae70280bee9e3.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/react-it-site/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/breadcrumb-trail.jpg": "/react-it-site/static/media/breadcrumb-trail.48aaedf7dfa61a00a5b1.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/react-it-site/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/banner.jpeg": "/react-it-site/static/media/banner.75278749ca11b7f0b0f1.jpeg",
     "static/media/lobster-latin-400.woff": "/react-it-site/static/media/lobster-latin-400.e4473cd7170c39b44c99.woff",
     "static/media/lobster-latin-400.woff2": "/react-it-site/static/media/lobster-latin-400.484e338f970ddc242388.woff2",
-    "static/media/logo.png": "/react-it-site/static/media/logo.cfe4bd2f2af68fa3b627.png",
     "static/media/open-sans-latin-800.woff": "/react-it-site/static/media/open-sans-latin-800.8ab0bbdd48f276f4ba56.woff",
     "static/media/open-sans-latin-700.woff": "/react-it-site/static/media/open-sans-latin-700.f24f4bcef8a4a0eb6345.woff",
     "static/media/open-sans-latin-600.woff": "/react-it-site/static/media/open-sans-latin-600.7e06644bbdc83069cec8.woff",
@@ -38,10 +33,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/react-it-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/react-it-site/index.html",
     "main.ea8039e4.css.map": "/react-it-site/static/css/main.ea8039e4.css.map",
-    "main.0c6c0436.js.map": "/react-it-site/static/js/main.0c6c0436.js.map"
+    "main.4b5485a4.js.map": "/react-it-site/static/js/main.4b5485a4.js.map"
   },
   "entrypoints": [
     "static/css/main.ea8039e4.css",
-    "static/js/main.0c6c0436.js"
+    "static/js/main.4b5485a4.js"
   ]
 }
