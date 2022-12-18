@@ -33,7 +33,7 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="nav-link" to="/technologies">
+                        <NavLink className="nav-link" to="/partners">
                             Technology Providers
                         </NavLink>
                     </NavItem>

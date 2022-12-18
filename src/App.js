@@ -8,6 +8,7 @@ import BannerImg from "./components/BannerImg";
 import Footer from './components/Footer';
 import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
 import CampsiteDetailPage from "./pages/CampsiteDetailPage";
+import PartnersPage from "./pages/PartnersPage";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="about" element={<AboutPage />} />
+                <Route path="partners" element={<PartnersPage />} />
                 <Route path="contact" element={<ContactPage />} />
                 <Route path="directory" element={<CampsitesDirectoryPage />} />
                 <Route

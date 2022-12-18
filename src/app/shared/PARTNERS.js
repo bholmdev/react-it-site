@@ -7,6 +7,7 @@ export const PARTNERS = [
     {
         id: 0,
         name: 'Cisco Technologies',
+        link: "https://www.cisco.com/",
         image: ciscologo,
         featured: false,
         description:
@@ -15,6 +16,7 @@ export const PARTNERS = [
     {
         id: 1,
         name: 'Sophos',
+        link: "https://www.sophos.com/",
         image: sophosLogo,
         description:
             'Managed Detection and Response.'
@@ -22,6 +24,7 @@ export const PARTNERS = [
     {
         id: 2,
         name: 'Palo Alto',
+        link: "https://www.paloaltonetworks.com/",
         image: palosAltoLogo,
         description:
             'Fix the unknown before you know it.'
@@ -29,6 +32,7 @@ export const PARTNERS = [
     {
         id: 3,
         name: 'SonicWall',
+        link: "https://www.sonicwall.com/",
         image: sonicwallLogo,
         description:
             'Mobilize for the new normal.'
