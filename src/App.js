@@ -10,23 +10,23 @@ import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
 import CampsiteDetailPage from "./pages/CampsiteDetailPage";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <BannerImg />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="about" element={<AboutPage />}></Route>
-        <Route path="contact" element={<ContactPage />} />
-        <Route path="directory" element={<CampsitesDirectoryPage />} />
-        <Route 
-          path="directory/:campsiteId" 
-          element={<CampsiteDetailPage />} 
-        />
-      </Routes>
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <BannerImg />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="about" element={<AboutPage />} />
+                <Route path="contact" element={<ContactPage />} />
+                <Route path="directory" element={<CampsitesDirectoryPage />} />
+                <Route
+                    path="directory/:campsiteId"
+                    element={<CampsiteDetailPage />}
+                />
+            </Routes>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
