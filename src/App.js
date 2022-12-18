@@ -16,13 +16,13 @@ function App() {
             <Header />
             <BannerImg />
             <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="about" element={<AboutPage />} />
-                <Route path="partners" element={<PartnersPage />} />
-                <Route path="contact" element={<ContactPage />} />
-                <Route path="directory" element={<CampsitesDirectoryPage />} />
+                <Route path="/react-it-site" element={<HomePage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/partners" element={<PartnersPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+                <Route path="/directory" element={<CampsitesDirectoryPage />} />
                 <Route
-                    path="directory/:campsiteId"
+                    path="/directory/:campsiteId"
                     element={<CampsiteDetailPage />}
                 />
             </Routes>
