@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Banner from "../app/assets/img/banner.jpeg"
 import { 
     Navbar, 
     NavbarBrand, 
@@ -9,7 +8,6 @@ import {
     NavItem
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
-import NucampLogo from "../app/assets/img/logo.png";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
