@@ -1,4 +1,5 @@
-import { Col, Row, Container, Card, CardBody, CardHeader } from "reactstrap";
+import { Col, Row, Container, Card, CardBody, CardHeader, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import Hacker from "../app/assets/img/hacker.jpg";
 import SubHeader from "../components/SubHeader";
 
 const AboutPage = () => {
@@ -15,12 +16,15 @@ const AboutPage = () => {
                 </Col>
                 <Col sm="6">
                     <Card className="bg-light mt-3">
-                        <CardBody className="blockquote">
-                            <p>“Passwords are like underwear: don't let people see it, change it very often, and you shouldn't share it with strangers.”</p>
-                            <footer className="blockquote-footer">
-                                Chris Pirillo
-                            </footer>
-                        </CardBody>
+                        <CardImg src={Hacker} />
+                        <CardImgOverlay>
+                            <CardTitle>
+                                <p className="blockquote">"Passwords are like underwear: don't let people see it, change it very often, and you shouldn't share it with strangers.”</p>
+                            </CardTitle>
+                            <CardTitle>
+                                <footer className="blockquote-footer">Chris Pirillo</footer>
+                            </CardTitle>
+                        </CardImgOverlay>
                     </Card>
                 </Col>
             </Row>
