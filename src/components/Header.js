@@ -21,7 +21,7 @@ const Header = () => {
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className="mx-auto" navbar>
                     <NavItem>
-                        <NavLink className="nav-link" to="/">
+                        <NavLink className="nav-link" to="/react-it-site">
                             Home
                         </NavLink>
                     </NavItem>
