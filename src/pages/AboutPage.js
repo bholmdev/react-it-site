@@ -28,7 +28,7 @@ const AboutPage = () => {
                     </Card>
                 </Col>
             </Row>
-            <Row className="row-conten">
+            <Row className="row-content">
                 <Col sm="6">
                     <Card>
                         <CardHeader className="bg-success text-white">

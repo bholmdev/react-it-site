@@ -7,6 +7,9 @@ import Header from './components/Header';
 import BannerImg from "./components/BannerImg";
 import Footer from './components/Footer';
 import PartnersPage from "./pages/PartnersPage";
+import SolutionsPage from "./pages/SolutionsPage";
+
+import EShopPage from "./pages/EShopPage";
 
 function App() {
     return (
@@ -18,6 +21,8 @@ function App() {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/partners" element={<PartnersPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/solutions" element={<SolutionsPage />} />
+                <Route path="/eshop" element={<EShopPage />} />
             </Routes>
             <Footer />
         </div>

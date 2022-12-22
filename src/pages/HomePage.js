@@ -8,7 +8,7 @@ const HomePage = () => {
             <SubHeader current="Home" />
             <div className="info">
                 <h1>Welcome to BHolm IT Services</h1>
-                <p>BHolm IT Services is a 100% Veteran Owned Company that delivers state of the art technologies from the most renowned and leading manufactures in the IT & Security Systems Industry.  Strategically positioned to lead the “IT & Security Systems Solutions service industry in the world by leveraging its Key partnerships with world class technology vendors, solid service infrastructure and a commitment to the IT security industry.</p>
+                <p>BHolm IT Services is a 100% Veteran Owned Company that delivers state of the art technologies from the most renowned and leading manufactures in the IT & Security Systems Industry.  Strategically positioned to lead the “IT & Security Systems Solutions" service industry in the world by leveraging its Key partnerships with world class technology vendors, solid service infrastructure and a commitment to the IT security industry.</p>
             </div>
             <div className="embededVideo">
                 <iframe width="774" height="472.2" src="https://www.youtube-nocookie.com/embed/wjORorezVeQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

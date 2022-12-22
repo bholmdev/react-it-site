@@ -1,13 +1,15 @@
-/* body {
-  font-family: 'Open Sans', sans-serif;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-/* h1,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Lobster', cursive;
-} */
+  font-family: 'Caveat', cursive;
+}
 
 .card-title {
   font-weight: 500;
