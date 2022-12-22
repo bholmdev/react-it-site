@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-it-site/static/css/main.ea8039e4.css",
-    "main.js": "/react-it-site/static/js/main.ee41d1f9.js",
+    "main.js": "/react-it-site/static/js/main.edf73bd2.js",
     "static/media/hacker.jpg": "/react-it-site/static/media/hacker.89a92beea883f2349b5f.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-it-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/react-it-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -33,10 +33,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/react-it-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/react-it-site/index.html",
     "main.ea8039e4.css.map": "/react-it-site/static/css/main.ea8039e4.css.map",
-    "main.ee41d1f9.js.map": "/react-it-site/static/js/main.ee41d1f9.js.map"
+    "main.edf73bd2.js.map": "/react-it-site/static/js/main.edf73bd2.js.map"
   },
   "entrypoints": [
     "static/css/main.ea8039e4.css",
-    "static/js/main.ee41d1f9.js"
+    "static/js/main.edf73bd2.js"
   ]
 }
