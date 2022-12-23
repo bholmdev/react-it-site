@@ -8,7 +8,7 @@ import BannerImg from "./components/BannerImg";
 import Footer from './components/Footer';
 import PartnersPage from "./pages/PartnersPage";
 import SolutionsPage from "./pages/SolutionsPage";
-
+import ServicesPage from "./pages/ServicesPage";
 import EShopPage from "./pages/EShopPage";
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
                 <Route path="/partners" element={<PartnersPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/solutions" element={<SolutionsPage />} />
+                <Route path="/services" element={<ServicesPage />} />
                 <Route path="/eshop" element={<EShopPage />} />
             </Routes>
             <Footer />
